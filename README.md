@@ -1,12 +1,71 @@
-# React + Vite
+# Portafolio Personal - Joel Jaquez - 23369
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio web personal desarrollado para mostrar mis proyectos, habilidades y experiencia como estudiante de Ingeniería en Ciencias de la Computación.
 
-Currently, two official plugins are available:
+## Demo en Vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[https://portafolio-joel.vercel.app/]()** 
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19.1.0** - Biblioteca de JavaScript para UI
+- **Vite 6.3.5** - Build tool y servidor de desarrollo
+- **React Router DOM** - Navegación entre páginas
+- **CSS3** - Estilos y animaciones
+- **Lucide React** - Iconos
+- **Vercel** - Deployment y hosting
+
+## Estructura del Proyecto
+
+```
+src/
+├── components/           # Componentes reutilizables
+│   ├── common/          # Navbar y Footer
+│   ├── projects/        # Tarjetas de proyectos
+│   └── skills/          # Tarjetas de habilidades
+├── pages/               # Páginas principales
+│   ├── Home.jsx         # Página de inicio
+│   ├── Projects.jsx     # Galería de proyectos
+│   ├── Skills.jsx       # Habilidades técnicas
+│   ├── Resume.jsx       # Currículum
+│   └── Contact.jsx      # Formulario de contacto
+├── data/                # Datos de proyectos y habilidades
+├── hooks/               # Hook personalizado para tema
+├── styles/              # Archivos CSS
+└── utils/               # Constantes
+```
+
+## Instalación
+
+1. **Clonar el repositorio**
+```bash
+git clone https://github.com/jaq23369/portafolio.git
+cd portafolio
+```
+
+2. **Instalar dependencias**
+```bash
+npm install
+```
+
+3. **Ejecutar en desarrollo**
+```bash
+npm run dev
+```
+
+##  Características
+
+- ✅ Diseño responsivo
+- ✅ Tema oscuro/claro
+- ✅ Navegación fluida
+- ✅ Descarga de CV en PDF
+- ✅ Formulario de contacto funcional
+- ✅ Animaciones y efectos
+
+##  Contacto
+
+**Joel Antonio Jaquez López**
+
+- 📧 Email: jjaquezlopez236@gmail.com
+- 🐙 GitHub: [@jaq23369](https://github.com/jaq23369)
+- 📱 Teléfono: +502 3079-3526
