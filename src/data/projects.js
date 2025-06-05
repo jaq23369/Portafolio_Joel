@@ -6,7 +6,7 @@ export const projectsData = [
     title: "E-commerce App",
     description:
       "Aplicación de comercio electrónico sobre videojuegos con HomePage, DetailPage y CartPage.",
-    image: "/publicimagesprojects/E-commerce.jpeg",
+    image: "/proyectos/E-commerce.jpeg",
     technologies: ["React + Vite"],
     github: "https://github.com/jaq23369/E-commerce-Spawn-Point.git",
     demo: "https://e-commerce-spawn-point.vercel.app",
@@ -17,7 +17,7 @@ export const projectsData = [
     title: "Technical Support API",
     description:
       "API para gestionar incidentes de soporte técnico, la cual permite a los empleados reportar incidentes.",
-    image: "/publicimagesprojects/API Support.jpeg",
+    image: "/proyectos/API Support.jpeg",
     technologies: ["JavaScript", "Flask", "PostgreSQL", "Docker"],
     github: "https://github.com/jaq23369/technical-support-api.git",
     demo: "#",
@@ -27,7 +27,7 @@ export const projectsData = [
     id: 3,
     title: "To Do List",
     description: "Aplicación simple para gestionar tareas pendientes.",
-    image: "/publicimagesprojects/ToDoList.jpeg",
+    image: "/proyectos/ToDoList.jpeg",
     technologies: ["HTML", "React CDN"],
     github: "https://github.com/jaq23369/Introducci-n-a-React-CDN-.git",
     demo: "#",

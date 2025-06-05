@@ -185,7 +185,7 @@ const Resume = () => {
           <div className="resume-header-section">
             <div className="profile-section">
               <img
-                src="/publicimages/JoelJ.jpeg"
+                src="/imagenes/JoelJ.jpeg"
                 alt="Joel Jaquez"
                 className="profile-photo"
               />

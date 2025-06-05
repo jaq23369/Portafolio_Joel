@@ -64,7 +64,7 @@ const Home = () => {
             <div className="hero-image">
               <div className="image-placeholder">
                 <img
-                  src="/publicimages/JoelJ.jpeg"
+                  src="/imagenes/JoelJ.jpeg"
                   alt="Joel Jaquez - Estudiante de Desarrollo Web"
                 />
               </div>
