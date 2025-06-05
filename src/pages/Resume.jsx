@@ -193,7 +193,7 @@ const Resume = () => {
                 <h1>Joel Antonio Jaquez López</h1>
                 <h2>
                   Ingeniería en Ciencias de la Computación y Tecnologías de la
-                  Información | Universidad del Valle de
+                  Información | Universidad del Valle de Guatemala
                 </h2>
                 <div className="contact-grid">
                   <div className="contact-item">
@@ -301,8 +301,7 @@ const Resume = () => {
               <p className="project-tech">React CDN, HTML, Local Storage</p>
               <ul>
                 <li>Aplicación web para gestión de tareas personales</li>
-                <li>Interfaz intuitiva con funcionalidades CRUD</li>
-                <li>Persistencia de datos en navegador</li>
+                <li>Interfaz simple</li>
               </ul>
             </div>
           </div>
