@@ -16,9 +16,9 @@ export const projectsData = [
     id: 2,
     title: "Technical Support API",
     description:
-      "API para gestionar incidentes de soporte técnico, la cual permite a los empleados reportar incidentes.",
+      "Backend RESTful desarrollado con Python y Flask para la gestión automatizada de incidentes. Implementa arquitectura MVC, conexión a base de datos PostgreSQL y containerización con Docker para un despliegue escalable.",
     image: "/proyectos/API Support.jpeg",
-    technologies: ["JavaScript", "Flask", "PostgreSQL", "Docker"],
+    technologies: ["Python", "Flask", "PostgreSQL", "Docker"],
     github: "https://github.com/jaq23369/technical-support-api.git",
     demo: "#",
     category: "web",

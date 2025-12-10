@@ -11,11 +11,45 @@ import {
   SiFigma,
   SiPostman,
   SiDocker,
+  SiPython, // <--- ¡Importante! Agregamos el icono de Python
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 
 export const skillsData = {
+  Backend: [
+    // Movemos Backend al principio para que lo vean primero
+    {
+      name: "Python",
+      level: 65,
+      icon: SiPython,
+      color: "#3776AB",
+    },
+    {
+      name: "Flask",
+      level: 40, // Subimos un poco el nivel
+      icon: SiFlask,
+      color: "#FFFFFF",
+    },
+    {
+      name: "PostgreSQL",
+      level: 60,
+      icon: SiPostgresql,
+      color: "#4169E1",
+    },
+  ],
   Frontend: [
+    {
+      name: "React",
+      level: 70,
+      icon: SiReact,
+      color: "#61DAFB",
+    },
+    {
+      name: "JavaScript",
+      level: 60,
+      icon: SiJavascript,
+      color: "#F7DF1E",
+    },
     {
       name: "HTML5",
       level: 70,
@@ -28,32 +62,6 @@ export const skillsData = {
       icon: SiCss3,
       color: "#1572B6",
     },
-    {
-      name: "JavaScript",
-      level: 55,
-      icon: SiJavascript,
-      color: "#F7DF1E",
-    },
-    {
-      name: "React",
-      level: 70,
-      icon: SiReact,
-      color: "#61DAFB",
-    },
-  ],
-  Backend: [
-    {
-      name: "Flask",
-      level: 40,
-      icon: SiFlask,
-      color: "#FFFFFF",
-    },
-    {
-      name: "PostgreSQL",
-      level: 60,
-      icon: SiPostgresql,
-      color: "#4169E1",
-    },
   ],
   Herramientas: [
     {
@@ -63,28 +71,22 @@ export const skillsData = {
       color: "#F05032",
     },
     {
+      name: "Docker",
+      level: 70,
+      icon: SiDocker,
+      color: "#2496ED",
+    },
+    {
       name: "VS Code",
       level: 70,
       icon: VscCode,
       color: "#007ACC",
     },
     {
-      name: "Figma",
-      level: 60,
-      icon: SiFigma,
-      color: "#F24E1E",
-    },
-    {
       name: "Postman",
-      level: 40,
+      level: 50,
       icon: SiPostman,
       color: "#FF6C37",
-    },
-    {
-      name: "Docker",
-      level: 70,
-      icon: SiDocker,
-      color: "#2496ED",
     },
   ],
 };
