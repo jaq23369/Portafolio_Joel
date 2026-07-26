@@ -14,8 +14,8 @@ export const resumeData = {
       url: "https://portafolio-joel.vercel.app/",
     },
     linkedin: {
-      label: "[AGREGAR ENLACE DE LINKEDIN]",
-      url: null,
+      label: "linkedin.com/in/joel-jaquez-659b92263",
+      url: "https://www.linkedin.com/in/joel-jaquez-659b92263",
     },
   },
   profile:
@@ -24,8 +24,7 @@ export const resumeData = {
     {
       degree: "Ingeniería en Ciencias de la Computación",
       institution: "Universidad del Valle de Guatemala",
-      period:
-        "[AGREGAR FECHA DE INICIO] – [AGREGAR FECHA ESTIMADA DE GRADUACIÓN]",
+      period: "Enero 2023 – Graduación prevista en 2028",
       details:
         "Formación en algoritmos, estructuras de datos, bases de datos y desarrollo de software.",
     },
@@ -47,7 +46,7 @@ export const resumeData = {
     },
     {
       name: "Technical Support API",
-      type: "[CONFIRMAR TIPO DE PROYECTO]",
+      type: "Desarrollo de APIs",
       technologies: "Python, Flask, PostgreSQL, Docker, Postman",
       github: "https://github.com/jaq23369/technical-support-api",
       bullets: [
@@ -58,7 +57,7 @@ export const resumeData = {
     },
     {
       name: "Spawn Point — E-commerce de videojuegos",
-      type: "[CONFIRMAR TIPO DE PROYECTO]",
+      type: "Proyecto de desarrollo web",
       technologies: "React, Vite, JavaScript, CSS",
       github: "https://github.com/jaq23369/E-commerce-Spawn-Point",
       demo: "https://e-commerce-spawn-point.vercel.app/",
@@ -101,7 +100,6 @@ export const resumeData = {
       ],
     },
   ],
-  courses: ["[AGREGAR CURSOS O CERTIFICACIONES RELEVANTES, SI APLICA]"],
   languages: ["Español — Nativo", "Inglés — Intermedio-Avanzado"],
   professionalSkills: [
     "Resolución de problemas",

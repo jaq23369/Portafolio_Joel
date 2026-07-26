@@ -64,10 +64,14 @@ const Resume = () => {
                 <Globe size={15} aria-hidden="true" />
                 {contact.portfolio.label}
               </a>
-              <span className="resume-placeholder">
+              <a
+                href={contact.linkedin.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Linkedin size={15} aria-hidden="true" />
                 {contact.linkedin.label}
-              </span>
+              </a>
             </address>
           </header>
 
@@ -148,17 +152,6 @@ const Resume = () => {
           </section>
 
           <div className="resume-bottom-grid">
-            <section className="resume-block" aria-labelledby="resume-courses">
-              <h2 id="resume-courses">Cursos y certificaciones</h2>
-              <ul className="resume-compact-list">
-                {resumeData.courses.map((course) => (
-                  <li className="resume-placeholder" key={course}>
-                    {course}
-                  </li>
-                ))}
-              </ul>
-            </section>
-
             <section className="resume-block" aria-labelledby="resume-languages">
               <h2 id="resume-languages">Idiomas</h2>
               <ul className="resume-compact-list">
