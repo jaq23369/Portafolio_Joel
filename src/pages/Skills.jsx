@@ -22,7 +22,7 @@ const Skills = () => {
     if (Object.keys(skills).length > 0) {
       // Crear objeto con progreso inicial en 0
       const initialProgress = {};
-      Object.entries(skills).forEach(([category, categorySkills]) => {
+      Object.values(skills).forEach((categorySkills) => {
         categorySkills.forEach((skill) => {
           initialProgress[skill.name] = 0;
         });
@@ -32,7 +32,7 @@ const Skills = () => {
       // Animar después de 500ms
       const timer = setTimeout(() => {
         const finalProgress = {};
-        Object.entries(skills).forEach(([category, categorySkills]) => {
+        Object.values(skills).forEach((categorySkills) => {
           categorySkills.forEach((skill) => {
             finalProgress[skill.name] = skill.level;
           });

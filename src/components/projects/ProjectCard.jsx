@@ -3,7 +3,7 @@
 // Descripción: Tarjeta de proyecto (solo presentación)
 // Props: project, isHovered, onMouseEnter, onMouseLeave
 // ===============================
-import { Github, ExternalLink, Eye } from "lucide-react";
+import { BarChart3, Github, ExternalLink, Eye } from "lucide-react";
 
 const ProjectCard = ({
   project,
@@ -21,7 +21,14 @@ const ProjectCard = ({
     >
       {/* Imagen del proyecto */}
       <div className="project-image">
-        <img src={project.image} alt={project.title} />
+        {project.image ? (
+          <img src={project.image} alt={`Vista previa de ${project.title}`} />
+        ) : (
+          <div className="project-image-placeholder" aria-hidden="true">
+            <BarChart3 size={58} />
+            <span>Predicción · Estadística · Simulación</span>
+          </div>
+        )}
 
         {/* Overlay que aparece al hacer hover */}
         <div className={`project-overlay ${isHovered ? "visible" : ""}`}>
@@ -33,6 +40,7 @@ const ProjectCard = ({
                 className="project-btn"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`Ver código de ${project.title} en GitHub`}
                 title="Ver código en GitHub"
               >
                 <Github size={20} />
@@ -46,6 +54,7 @@ const ProjectCard = ({
                 className="project-btn"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`Ver demo de ${project.title}`}
                 title="Ver demo en vivo"
               >
                 <ExternalLink size={20} />

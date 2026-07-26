@@ -8,7 +8,6 @@ import {
   SiFlask,
   SiPostgresql,
   SiGit,
-  SiFigma,
   SiPostman,
   SiDocker,
   SiPython, // <--- ¡Importante! Agregamos el icono de Python

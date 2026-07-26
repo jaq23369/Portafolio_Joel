@@ -2,6 +2,17 @@
 // Descripcion: Este archivo contiene los datos de los proyectos que se mostrarán en la sección de proyectos del portafolio. Cada proyecto tiene un ID, título, descripción, imagen, tecnologías utilizadas, enlaces a GitHub y demo, y una categoría.
 export const projectsData = [
   {
+    id: 4,
+    title: "Predictor Inteligente del Mundial 2026",
+    description:
+      "Aplicación full stack que procesa datos deportivos y combina modelos de clasificación con un modelo Poisson para estimar resultados, marcadores y simular el torneo.",
+    image: null,
+    technologies: ["Python", "FastAPI", "scikit-learn", "React", "Vite"],
+    github: "https://github.com/jaq23369/Predictor_WC2026",
+    demo: "https://predictor-wc-2026-sepia.vercel.app/",
+    category: "data",
+  },
+  {
     id: 1,
     title: "E-commerce App",
     description:
