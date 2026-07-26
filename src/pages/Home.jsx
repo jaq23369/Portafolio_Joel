@@ -24,18 +24,19 @@ const Home = () => {
                 de Guatemala
               </h2>
               <p className="hero-description">
-                Estudiante de 3er año apasionado por crear soluciones digitales.
-                Desde 2023 construyendo proyectos con Python, Java, Android
-                Studio, React, JavaScript, PostgreSQL y Docker. Busco mi primera
-                oportunidad profesional para aplicar mis conocimientos y crecer
-                como desarrollador.
+                Estudiante de 4.º año, actualmente en el octavo semestre,
+                apasionado por crear soluciones digitales. Desde 2023
+                construyendo proyectos con Python, Java, Android Studio, React,
+                JavaScript, PostgreSQL y Docker. Busco mi primera oportunidad
+                profesional para aplicar mis conocimientos y crecer como
+                desarrollador.
               </p>
 
               {/* Estadísticas visuales */}
               <div className="hero-stats">
                 <div className="stat-item">
                   <GraduationCap size={20} />
-                  <span>3er Año UVG</span>
+                  <span>4.º Año · 8.º Semestre</span>
                 </div>
                 <div className="stat-item">
                   <Code size={20} />
@@ -83,11 +84,11 @@ const Home = () => {
         <div className="container">
           <h3>Acerca de Mí</h3>
           <p>
-            Soy estudiante de 3er año en la Universidad del Valle de Guatemala,
-            especializado en desarrollo web. Desde 2023 he construido una base
-            sólida en tecnologías frontend y backend, creando proyectos que
-            demuestran mi capacidad para resolver problemas reales con código
-            limpio.
+            Soy estudiante de 4.º año y actualmente curso el octavo semestre en
+            la Universidad del Valle de Guatemala, especializado en desarrollo
+            web. Desde 2023 he construido una base sólida en tecnologías
+            frontend y backend, creando proyectos que demuestran mi capacidad
+            para resolver problemas reales con código limpio.
           </p>
           <p>
             Ofrezco conocimientos actuales en tecnologías modernas como React,
